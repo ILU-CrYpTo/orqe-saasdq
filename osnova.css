@@ -1,0 +1,236 @@
+.imgLogo img {
+    position: relative;
+    left: 42%;
+}
+
+.textLogo h1 {
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    top: -80px;
+}
+
+.textLogo p {
+    width: 480px;
+    color: #808080;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left: 37.4%;   
+}
+
+.polosa {
+    width: 1549px;
+    height: 2px;
+    border-radius: 2px;
+    background: #FFF;
+    position: relative;
+    top: -60px;
+    left: 9.5%;
+}
+
+.starsDone img {
+    position: relative;
+    left: 8.5%;
+}
+
+.starsDone p {
+    color: #939393;
+    text-align: center;
+    width: 345px;
+    position: relative;
+    top: -70px;
+    font-size: 15px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    left: 9.5%;
+}
+
+.cora img {
+    position: relative;
+    top: -355px;
+    left: 30%;
+}
+
+.cora p {
+    color: white;
+    position: relative;
+    top: -425px;
+    left: 31%;
+    width: 350px;
+    color: #939393;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.aboutimg img {
+    position: relative;
+    top: -711px;
+    left: 51.6%;
+}
+
+.aboutimg h1 {
+    margin: 0;
+    color: #C5B5FE;
+    position: relative;
+    top: -955px;
+    left: 53%;
+    font-family: 'Michroma';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.aboutimg p {
+    margin: 0;
+    color: #939393;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 702px;
+    position: relative;
+    top: -945px;
+    left: 53%;
+}
+
+.whypump {
+    position: relative;
+    top: -870px;
+    left: 8.5%;
+}
+
+.whypump h1 {
+    margin: 0;
+    color: #C5B5FE;
+    position: relative;
+    top: -230px;
+    font-family: 'Michroma';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    left: 1.2%;
+}
+
+.whypump p {
+    margin: 0;
+    width: 702px;
+    color: #939393;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -220px;
+    left: 1.2%;
+}
+
+.astralyte img {
+    position: relative;
+    top: -1310px;
+    left: 48.5%;
+}
+
+.astralyte h1 {
+    margin: 0;
+    color: #C5B5FE;
+    font-family: 'Michroma';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -1500px;
+    left: 49.5%;
+}
+
+.astralyte p {
+    margin: 0;
+    width: 350px;
+    color: #939393;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -1475px;
+    left: 50.5%;
+}
+
+
+
+.luminex img {
+    position: relative;
+    top: -1665px;
+    left: 70%;
+}
+
+.luminex h1 {
+    margin: 0;
+    color: #C5B5FE;
+    font-family: 'Michroma';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -1855px;
+    left: 71%;
+}
+
+.luminex p {
+    margin: 0;
+    width: 346.404px;
+    color: #939393;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -1830px;
+    left: 72%;
+}
+
+
+.ca img {
+    position: relative;
+    top: -1770px;
+    left: 48.2%;
+}
+
+.ca h1 {
+    margin: 0;
+    color: #C5B5FE;
+    font-family: 'Michroma';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -1808px;
+    left: 50%;
+}
+
+.ca p {
+    margin: 0;
+    color: #939393;
+    font-family: 'Michroma';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: -1834px;
+    left: 52.5%;
+}

@@ -1,0 +1,24 @@
+.osnova2 h1 {
+    color: #C5B5FE;
+    font-family: 'Michroma';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: 100px;
+    left: 10.5%;
+}
+
+.osnova2 h2 {
+    width: 550px;
+    color: #939393;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: 100px;
+    left: 10.5%;
+    z-index: 12;
+}

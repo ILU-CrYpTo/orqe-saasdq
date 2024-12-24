@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'Michroma';
+    src: url('Michroma-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    height: 1180px;
+    margin: 0 auto;
+    background-color: black;
+    overflow: hidden;
+}
+
+.menu {
+    width: 1586px;
+    height: 61px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(30, 30, 30, 0.70);
+    position: relative;
+    top: 20px;
+    left: 8.5%;
+    z-index: 100;
+}
+
+.logo img {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    top: 3px;
+    left: 1%;    
+}
+
+.logoText h1 {
+    color: white;
+    font-family: 'Michroma';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    top: -51px;
+    left: 5.1%;
+}
+
+button.text {
+    width: 94px;
+    height: 40px;
+    overflow: hidden;
+    border: none;
+    color: #8e8e8e;
+    background: none;
+    position: relative;
+    padding-bottom: 2em;
+    cursor: pointer;
+    transition: color 0.8s ease;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -57px;
+    left: 70%;
+}
+
+button.text img.box-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    transition: all 0.3s ease; /* Плавный переход */
+}
+
+button.text:hover img.box-image {
+    content: url('box-white.png'); /* Меняем изображение при наведении */
+}
+
+button.text a {
+    color: inherit; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    line-height: 56px; 
+    transition: color 0.1s ease;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+button.text:hover {
+    color: white; 
+}
+
+button.text > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+button.text:before {
+    content: "";
+    position: absolute;
+    color: white;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    background: currentColor;
+    transition: transform 0.8s ease-out; 
+}
+
+button.text:hover:before {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+/*--------------------------------*/
+
+button.text2 {
+    width: 110px;
+    height: 40px;
+    overflow: hidden;
+    border: none;
+    color: #8e8e8e;
+    background: none;
+    position: relative;
+    padding-bottom: 2em;
+    cursor: pointer;
+    transition: color 0.8s ease;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -97px;
+    left: 77%;
+}
+
+button.text2 img.box-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    transition: all 0.3s ease; /* Плавный переход */
+}
+
+button.text2:hover img.box-image {
+    content: url('logo2-white.png'); /* Меняем изображение при наведении */
+}
+
+button.text2 a {
+    color: inherit; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    line-height: 56px; 
+    transition: color 0.1s ease;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+button.text2:hover {
+    color: white; 
+}
+
+button.text2 > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+button.text2:before {
+    content: "";
+    position: absolute;
+    color: white;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    background: currentColor;
+    transition: transform 0.8s ease-out; 
+}
+
+button.text2:hover:before {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+/*--------------------------------*/
+
+button.text3 {
+    width: 110px;
+    height: 40px;
+    overflow: hidden;
+    border: none;
+    color: #8e8e8e;
+    background: none;
+    position: relative;
+    padding-bottom: 2em;
+    cursor: pointer;
+    transition: color 0.8s ease;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -136px;
+    left: 85%;
+}
+
+button.text3 img.box-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    transition: all 0.3s ease; /* Плавный переход */
+}
+
+button.text3:hover img.box-image {
+    content: url('book-white.png'); /* Меняем изображение при наведении */
+}
+
+button.text3 a {
+    color: inherit; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    line-height: 56px; 
+    transition: color 0.1s ease;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+button.text3:hover {
+    color: white; 
+}
+
+button.text3 > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+button.text3:before {
+    content: "";
+    position: absolute;
+    color: white;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    background: currentColor;
+    transition: transform 0.8s ease-out; 
+}
+
+button.text3:hover:before {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+/*--------------------------------*/
+
+button.text4 {
+    width: 110px;
+    height: 40px;
+    overflow: hidden;
+    border: none;
+    color: #8e8e8e;
+    background: none;
+    position: relative;
+    padding-bottom: 2em;
+    cursor: pointer;
+    transition: color 0.8s ease;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -175px;
+    left: 92%;
+}
+
+button.text4 img.box-image {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    transition: all 0.3s ease; /* Плавный переход */
+}
+
+button.text4:hover img.box-image {
+    content: url('twitter-white.png'); /* Меняем изображение при наведении */
+}
+
+button.text4 a {
+    color: inherit; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    line-height: 56px; 
+    transition: color 0.1s ease;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+button.text4:hover {
+    color: white; 
+}
+
+button.text4 > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+button.text4:before {
+    content: "";
+    position: absolute;
+    color: white;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    background: currentColor;
+    transition: transform 0.8s ease-out; 
+}
+
+button.text4:hover:before {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+/*--------------------------------*/
+
+button.text5 {
+    width: 110px;
+    height: 40px;
+    overflow: hidden;
+    border: none;
+    color: white;
+    background: none;
+    position: relative;
+    padding-bottom: 2em;
+    cursor: pointer;
+    transition: color 0.8s ease;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -215px;
+    left: 5%;
+}
+
+button.text5 img.box-image {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    transition: all 0.3s ease; /* Плавный переход */
+}
+
+button.text5:hover img.box-image {
+    content: url('twitter-white.png'); /* Меняем изображение при наведении */
+}
+
+button.text5 a {
+    color: inherit; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    line-height: 56px; 
+    transition: color 0.1s ease;
+    position: relative;
+    top: 10px;
+}
+
+button.text5:hover {
+    color: white; 
+}
+
+button.text5 > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+button.text5:before {
+    content: "";
+    position: absolute;
+    color: white;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    background: currentColor;
+    transition: transform 0.8s ease-out; 
+}
+
+button.text5:hover:before {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
